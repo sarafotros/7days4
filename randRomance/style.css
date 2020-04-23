@@ -1,15 +1,20 @@
 body {
-   background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('https://calcareerpeers.files.wordpress.com/2016/09/perf-resume.gif?w=576&zoom=2'); 
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-position: center;
-   width: 100%;
-   height: 100vh;
-   padding: 20px;
-   margin: 10px;
-   position: relative;
-   font-family: 'Comic Neue', cursive;
-    color: rgb(162, 136, 192);
-    font-weight: bolder;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+		url('https://calcareerpeers.files.wordpress.com/2016/09/perf-resume.gif?w=576&zoom=2');
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100vh;
+	position: relative;
+	background-size: contain;
+	background-position: bottom;
+	font-family: 'Comic Neue', cursive;
+	color: rgb(162, 136, 192);
+	font-weight: bolder;
 }
-
+header {
+	width: 130%;
+	position: absolute;
+	top: 35%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
